@@ -40,12 +40,12 @@
    ================================================== -->
    <header>   	
    	<div class="topnav" id="myTopnav">
-        <a class="smoothscroll active" href="#intro">Home</a>
-        <a class="smoothscroll" href="#about">About</a>
-        <a class="smoothscroll" href="#resume">Resume</a>
-        <a class="smoothscroll" href="#portfolio">Portfolio</a>
-        <a class="smoothscroll" href="#services">Services</a>
-        <a class="smoothscroll" href="#contact">Contact</a>
+        <a class="smoothscroll active" href="#intro" onclick="callHome()">Home</a>
+        <a class="smoothscroll" href="#about" onclick="myFunction()">About</a>
+        <a class="smoothscroll" href="#resume" onclick="myFunction()">Resume</a>
+        <a class="smoothscroll" href="#portfolio" onclick="myFunction()">Portfolio</a>
+        <a class="smoothscroll" href="#services" onclick="myFunction()">Services</a>
+        <a class="smoothscroll" href="#contact" onclick="myFunction()">Contact</a>
         
         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
             <i class="fa fa-bars"></i>
@@ -59,6 +59,13 @@
                 x.className += " responsive";
             } else {
                 x.className = "topnav";
+            }
+        }
+        
+        function callHome(){
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav responsive") {
+                myFunction();
             }
         }
     </script>	
@@ -438,9 +445,9 @@
 					   </div>
 
 			         <div class="link-box">
-			            <a href="http://www.behance.net">Details</a>
-					      <a href="#" class="popup-modal-dismiss">Close</a>
-			         </div>		      
+			            <a href="./myprojects/inspoWorks_doc.pdf" target="_blank">Documentation</a>
+					      <a href="https://github.com/ferranm99/InspoWorks" target="_blank">Code  <i class="fa fa-code fa-lg" aria-hidden="true"></i></a>
+			         </div>			      
 
 				   </div> <!-- /modal-01 -->
 
