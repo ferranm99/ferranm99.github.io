@@ -216,14 +216,13 @@
 	/*	contact form
 	------------------------------------------------------ */
 
-    $('#contactForm').validate();
-	/* local validation 
+	//local validation 
 	$('#contactForm').validate({
         		
 		submitHandler: function(form) {
 
 			var sLoader = $('#submit-loader');
-            /* sLoader.fadeIn();
+            sLoader.fadeIn();
             setTimeout(function(){
                 console.log("Email sent!")
                 sLoader.fadeOut(); 
@@ -232,46 +231,11 @@
                 $('#message-success').fadeIn(); 
             }, 1000);
             
-            //submit via ajax 
-			$.ajax({      	
-
-		      type: "POST",
-		      url: "https://formsubmit.co/fmartinezz@tutanota.com",
-		      data: $(form).serialize(),
-		      beforeSend: function() { 
-
-		      	sLoader.fadeIn(); 
-
-		      },
-		      success: function(msg) {
-
-	            // Message was sent
-	            if (msg == 'OK') {
-	            	sLoader.fadeOut(); 
-	               $('#message-warning').hide();
-	               $('#contactForm').fadeOut();
-	               $('#message-success').fadeIn();   
-	            }
-	            // There was an error
-	            else {
-	            	sLoader.fadeOut(); 
-	               $('#message-warning').html(msg);
-		            $('#message-warning').fadeIn();
-	            }
-
-		      },
-		      error: function() {
-
-		      	sLoader.fadeOut(); 
-		      	$('#message-warning').html("Something went wrong. Please try again.");
-		         $('#message-warning').fadeIn();
-
-		      }
-
-	      });     		
+            //submit with no ajax 
+			form.submit();
         }
 
-	});*/
+	});
 
 
  	/*----------------------------------------------------- */
