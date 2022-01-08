@@ -216,7 +216,7 @@
 	/*	contact form
 	------------------------------------------------------ */
 
-	/* local validation */
+	/* local validation 
 	$('#contactForm').validate({
         		
 		submitHandler: function(form) {
@@ -231,7 +231,7 @@
                 $('#message-success').fadeIn(); 
             }, 1000);
             
-            submit via ajax */
+            //submit via ajax 
 			$.ajax({      	
 
 		      type: "POST",
@@ -270,7 +270,7 @@
 	      });     		
         }
 
-	});
+	});*/
 
 
  	/*----------------------------------------------------- */
