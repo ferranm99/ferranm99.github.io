@@ -216,6 +216,7 @@
 	/*	contact form
 	------------------------------------------------------ */
 
+    $('#contactForm').validate();
 	/* local validation 
 	$('#contactForm').validate({
         		

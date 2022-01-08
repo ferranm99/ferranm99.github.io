@@ -819,10 +819,13 @@
    		<div class="col-twelve">
 
             <!-- form -->
-            <form action="https://formsubmit.co/fmartinezz@tutanota.com" method="POST" target="_blank">
-                <input type="text" name="name" required>
-                <input type="email" name="email" required>
-                <button type="submit">Send</button>
+            <form action="https://formsubmit.co/1904826b1292addb215f4f7034b96fb3" method="POST" target="_blank" id="contactForm" >
+                <input id="contactName" type="text" name="name" placeholder="Name" value="" minlength="2" required>
+                <input id="contactEmail" type="email" name="email" placeholder="Email" value="" required>
+                <input name="subject" type="text" id="contactSubject" placeholder="Subject" value="">
+                <textarea id="contactMessage" name="message" placeholder="message" rows="10" cols="50" required=""></textarea>
+                <input type="hidden" name="_captcha" value="false">
+                <button class="submitform" type="submit">Send</button>
             </form><!-- Form End -->
 
             <!-- contact-warning -->
