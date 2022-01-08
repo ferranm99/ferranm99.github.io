@@ -218,16 +218,24 @@
 
 	/* local validation */
 	$('#contactForm').validate({
-
-		/* submit via ajax */
+        		
 		submitHandler: function(form) {
 
 			var sLoader = $('#submit-loader');
-
+            /* sLoader.fadeIn();
+            setTimeout(function(){
+                console.log("Email sent!")
+                sLoader.fadeOut(); 
+                $('#message-warning').hide();
+                $('#contactForm').fadeOut();
+                $('#message-success').fadeIn(); 
+            }, 1000);
+            
+            submit via ajax */
 			$.ajax({      	
 
 		      type: "POST",
-		      url: "inc/sendEmail.php",
+		      url: "https://formsubmit.co/fmartinezz@tutanota.com",
 		      data: $(form).serialize(),
 		      beforeSend: function() { 
 
@@ -260,7 +268,7 @@
 		      }
 
 	      });     		
-  		}
+        }
 
 	});
 
