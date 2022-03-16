@@ -10,7 +10,7 @@ var my_avatar = 0;
 var usuarios = [];
 
 //connection to the server:
-var socket = new WebSocket("ws://tinas-chat.herokuapp.com");
+var socket = new WebSocket("wss://tinas-chat.herokuapp.com");
 //var socket = new WebSocket("ws://localhost:9042");
 socket.onopen = function(){  
     console.log("Socket has been opened! :)");

@@ -13,7 +13,7 @@ var posX = Math.random() * (600 -10 - 10) + 10;
 var posY = Math.random() * (400 -10 - 10) + 10;  
 
 //connection to the server:
-var socket = new WebSocket("ws://tinas-chat.herokuapp.com");
+var socket = new WebSocket("wss://tinas-chat.herokuapp.com");
 //var host = location.origin.replace(/^http/, 'ws')
 //var socket = new WebSocket(host);
 socket.onopen = function(){  
