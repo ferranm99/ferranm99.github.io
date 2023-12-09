@@ -1896,6 +1896,7 @@ header .logo a {
 	background: #FFFFFF;
 	position: relative;
 	margin: 0 auto;
+	box-sizing: border-box;
 }
 .popup-modal .media {
 	position: relative;
@@ -2597,3 +2598,9 @@ footer .copyright span:last-child::after {
 }
 
 /*# sourceMappingURL=main.css.map */
+
+/*added code carousel */
+.swiper {
+	width: 100%;
+	height: 700px;
+  }

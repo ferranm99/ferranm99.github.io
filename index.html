@@ -21,11 +21,14 @@
    <link rel="stylesheet" href="css/main.css">
    <link rel="stylesheet" href="css/vendor.css"> 
    <link rel="stylesheet" href="css/nav_bar.css"> 
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
 
    <!-- script
    ================================================== -->   
 	<script src="js/modernizr.js"></script>
 	<script src="js/pace.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
    <!-- favicons
 	================================================== -->
@@ -327,240 +330,60 @@
    		</div>   		
    	</div> <!-- /section-intro--> 
 
-   	<div class="row portfolio-content">
+		<!-- Slider main container -->
+	<div class="swiper">
+		<!-- Additional required wrapper -->
+		<div class="swiper-wrapper">
+			<!-- Slides -->
 
-   		<div class="col-twelve">
+			<div id="modal-02" class="popup-modal slider swiper-slide">
 
-   			<!-- portfolio-wrapper -->
-	         <div id="folio-wrapper" class="block-1-2 block-mob-full stack">
+				<div class="media">
+					<img src="images/portfolio/mrtrip.png" alt="Mr Trip" />
+				</div>
 
-	         	<div class="bgrid folio-item">
-	               <div class="item-wrap">
-	               	<img src="images/portfolio/inspo.png" alt="InspoWorks">
-	                  <a href="#modal-01" class="overlay">	                  	           
-	                     <div class="folio-item-table">
-	                     	<div class="folio-item-cell">
-		     					       <h3 class="folio-title">InspoWorks</h3>	     					    
-		     					    	 <span class="folio-types">
-		     					       	  Web Design
-		     					       </span>
-		     					   </div>	                      	
-	                     </div>                    
-	                  </a>
-	               </div>	               
-	        		</div> <!-- /folio-item -->
+				<div class="description-box">
+					<h4>Mr Trip</h4>
+					<p>Web App that allows users to plan a trip collaboratively on a 3D model of the World. Users can chat, insert pins or create new trips. It uses the <a href="https://github.com/jagenjo/rendeer.js" target="_blank">Rendeer</a> library.</p>
 
-	        		<div class="bgrid folio-item">
-	               <div class="item-wrap">
-	               	<img src="images/portfolio/mrtrip.png" alt="Mr Trip">
-	               	<a href="#modal-02" class="overlay">              		                  
-	                     <div class="folio-item-table">
-	                     	<div class="folio-item-cell">
-	                     		<h3 class="folio-title">Mr Trip</h3>	     					    
-		     					    	<span class="folio-types">
-		     					       	  3D Web Graphics
-		     					      </span>		     		
-		     					   </div> 	                      	
-	                     </div>                    
-	                  </a>
-	               </div>
-	        		</div> <!-- /folio-item -->
+					<div class="categories">3D Web Graphics</div>
+				</div>
 
-	            <div class="bgrid folio-item">
-	               <div class="item-wrap">
-	               	<img src="images/portfolio/chat.png" alt="Ferran's Chat">
-	                  <a href="#modal-03" class="overlay">             		                  
-	                     <div class="folio-item-table">
-	                     	<div class="folio-item-cell">
-	                     		<h3 class="folio-title">Ferran's Chat</h3>	     					    
-		     					    	<span class="folio-types">
-		     					       	  Web Design
-		     					      </span>		     		
-		     					   </div> 	                      	
-	                     </div>                    
-	                  </a>
-	               </div>
-	        		</div> <!-- /folio-item -->
+				<div class="link-box">
+					<a href="./myprojects/mrTrip/" target="_blank">Try Out!</a>
+					<a href="https://github.com/ferranm99/MrTrip" target="_blank">Code  <i class="fa fa-code fa-lg"></i></a>
+				</div>
 
-	            <div class="bgrid folio-item">
-	               <div class="item-wrap">
-	               	<img src="images/portfolio/fishfix.png" alt="Fish&Fix">
-	                  <a href="#modal-04" class="overlay">                  	                 
-	                     <div class="folio-item-table">
-	                     	<div class="folio-item-cell">
-	                     		<h3 class="folio-title">Fish & Fix</h3>	     					    
-		     					    	<span class="folio-types">
-		     					       	  Augmented Reality
-		     					      </span>		     		
-		     					   </div>  	                      	
-	                     </div>                    
-	                  </a>
-	               </div>
-	        		</div> <!-- /folio-item -->     
+			</div>
+			<div id="modal-03" class="popup-modal slider swiper-slide">
 
-	        		<div class="bgrid folio-item">
-	               <div class="item-wrap">
-	               	<img src="images/portfolio/app.png" alt="App">
-	                  <a href="#modal-05" class="overlay">             		                  
-	                     <div class="folio-item-table">
-	                     	<div class="folio-item-cell">
-	                     		<h3 class="folio-title">Renting App</h3>	     					    
-		     					    	<span class="folio-types">
-		     					       	  App Development
-		     					      </span>		     		
-		     					   </div> 	                      	
-	                     </div>                    
-	                  </a>
-	               </div>
-	        		</div> <!-- /folio-item -->
+				<div class="media">
+					<img src="images/portfolio/mrtrip.png" alt="Mr Trip" />
+				</div>
 
-	            <div class="bgrid folio-item">
-	               <div class="item-wrap">
-	               	<img src="images/portfolio/office.png" alt="Online Office">
-	                  <a href="#modal-06" class="overlay">
-	                     <div class="folio-item-table">
-	                     	<div class="folio-item-cell">
-	                     		<h3 class="folio-title">Online Office</h3>	     					    
-		     					    	<span class="folio-types">
-		     					       	  2D Web Graphics
-		     					      </span>		     		
-		     					   </div>	                      	
-	                     </div>                    
-	                  </a>
-	               </div>
-	        		</div> <!-- /folio-item -->   
+				<div class="description-box">
+					<h4>Mr Trip</h4>
+					<p>Web App that allows users to plan a trip collaboratively on a 3D model of the World. Users can chat, insert pins or create new trips. It uses the <a href="https://github.com/jagenjo/rendeer.js" target="_blank">Rendeer</a> library.</p>
 
-	            <!-- modal popups - begin
-	            ============================================================= -->
-	            <div id="modal-01" class="popup-modal slider mfp-hide">	
+					<div class="categories">3D Web Graphics</div>
+				</div>
 
-				     	<div class="media">
-				     		<img src="images/portfolio/modals/inspo.png" alt="" />
-				     	</div>      	
+				<div class="link-box">
+					<a href="./myprojects/mrTrip/" target="_blank">Try Out!</a>
+					<a href="https://github.com/ferranm99/MrTrip" target="_blank">Code  <i class="fa fa-code fa-lg"></i></a>
+				</div>
 
-					   <div class="description-box">
-					      <h4>InspoWorks</h4>		      
-					      <p>Twitter-like application that targets an artist-related population. It has twitter's main features such as tweeting, commenting, liking/disliking a tweet or following other users. It runs on Tomcat Java Servlets and SQL.</p>
+			</div>
+			<div class="swiper-slide">Slide 3</div>
+			...
+		</div>
 
-					      <div class="categories">Web Design</div>			               
-					   </div>
+		<!-- If we need navigation buttons -->
+		<div class="swiper-button-prev"></div>
+		<div class="swiper-button-next"></div>
 
-			         <div class="link-box">
-			            <a href="./myprojects/inspoWorks_doc.pdf" target="_blank">Documentation</a>
-					      <a href="https://github.com/ferranm99/InspoWorks" target="_blank">Code  <i class="fa fa-code fa-lg" aria-hidden="true"></i></a>
-			         </div>			      
+	</div>
 
-				   </div> <!-- /modal-01 -->
-
-				   <div id="modal-02" class="popup-modal slider mfp-hide">	
-
-				     	<div class="media">
-				     		<img src="images/portfolio/mrtrip.png" alt="Mr Trip" />
-				     	</div>      	
-
-					   <div class="description-box">
-					      <h4>Mr Trip</h4>		      
-					      <p>Web App that allows users to plan a trip collaboratively on a 3D model of the World. Users can chat, insert pins or create new trips. It uses the <a href= "https://github.com/jagenjo/rendeer.js" target="_blank">Rendeer</a> library.</p>
-
-					      <div class="categories">3D Web Graphics</div>			               
-					   </div>
-
-			         <div class="link-box">
-			            <a href="./myprojects/mrTrip/" target="_blank">Try Out!</a>
-					      <a href="https://github.com/ferranm99/MrTrip" target="_blank">Code  <i class="fa fa-code fa-lg"></i></a>
-			         </div>		      
-
-				   </div> <!-- /modal-02 class="popup-modal-dismiss"  for the close btn-->
-
-				   <div id="modal-03" class="popup-modal slider mfp-hide">	
-
-				     	<div class="media">
-				     		<img src="images/portfolio/modals/mchat.png" alt="" />
-				     	</div>      	
-
-					   <div class="description-box">
-					      <h4>Ferran's Chat</h4>		      
-					      <p>Simple web application to communicate with your friends! You can create a room to chat with a partner or with multiple people at the same time. Also, you can change the main theme of the website.</p>
-
-					      <div class="categories">Web Design</div>			               
-					   </div>
-
-			         <div class="link-box">
-			            <a href="./myprojects/chat/" target="_blank">Try Out!</a>
-					      <a href="https://github.com/ferranm99/SimpleChat" target="_blank">Code  <i class="fa fa-code fa-lg" aria-hidden="true"></i></a>
-			         </div>		      
-
-				   </div> <!-- /modal-03 -->
-
-				   <div id="modal-04" class="popup-modal slider mfp-hide">	
-
-				     	<div class="media">
-				     		<img src="images/portfolio/modals/m-fishfix.png" alt="Fish&Fix" />
-				     	</div>      	
-
-					   <div class="description-box">
-					      <h4>Fish & Fix</h4>		      
-					      <p>Full-body interactive game developed in Unity. It can be played with special material offered by <a href="https://www.upf.edu/web/fubintlab/" target="_blank">FubIntLab</a>. The goal of the two-player game is to catch as many fish as possible while maintaing a proper water quality by removing trash. <a href="https://www.youtube.com/watch?v=klWT4csu8WI" target="_blank">Here</a> you can see another game that uses the same technology and space.</p>
-
-					      <div class="categories">Augmented Reality</div>			               
-					   </div>
-
-			         <div class="link-box">
-			            <a href="https://drive.google.com/file/d/1njJ2Kk5vp7H11ezPJOhM2qtqKzHdARX7/view" target="_blank">Download .exe</a>
-					      <a href="https://github.com/leoli51/Clean-lab-proyect" target="_blank">Code  <i class="fa fa-code fa-lg" aria-hidden="true"></i></a>
-			         </div>		      
-
-				   </div> <!-- /modal-04 -->
-
-				   <div id="modal-05" class="popup-modal slider mfp-hide">	
-
-				     	<div class="media">
-				     		<img src="images/portfolio/modals/app_screens.png" alt="Renting app" />
-				     	</div>      	
-
-					   <div class="description-box">
-					      <h4>Renting App</h4>		      
-					      <p>A couple of friends and I are working on a peer-to-peer renting marketplace in which users can post their belongings so that anyone in the app can rent them for some time. It is still under development, but will see the light soon :)</p>
-
-					      <div class="categories">App Development</div>			               
-					   </div>
-
-			         <div class="link-box">
-			            <a href="#" class="popup-modal-dismiss"><i class="fa fa-android fa-lg"></i> (soon)</a>
-					      <a href="#" class="popup-modal-dismiss"><i class="fa fa-apple fa-lg"></i> (soon)</a>
-			         </div>		      
-
-				   </div> <!-- /modal-05 -->
-
-				   <div id="modal-06" class="popup-modal slider mfp-hide">	
-
-				     	<div class="media">
-				     		<img src="images/portfolio/office.png" alt="Online Office" />
-				     	</div>      	
-
-					   <div class="description-box">
-					      <h4>Online Office</h4>		      
-					      <p>Chat webapp in which we simulate an office environment, where users can move their avatar freely. They can chat with other people who are in the same room.</p>
-
-					      <div class="categories">2D Web Graphics</div>			               
-					   </div>
-
-			         <div class="link-box">
-			            <a href="./myprojects/OnlineOffice/" target="_blank">Try Out!</a>
-					      <a href="https://github.com/ferranm99/OnlineOffice" target="_blank">Code  <i class="fa fa-code fa-lg" aria-hidden="true"></i></a>
-			         </div>		      
-
-				   </div> <!-- /modal-06 -->
-
-
-				   <!-- modal popups - end
-	            ============================================================= -->
-
-	         </div> <!-- /portfolio-wrapper --> 
-
-   		</div>  <!-- /twelve -->   
-
-   	</div> <!-- /portfolio-content --> 
 		
 	</section> <!-- /portfolio --> 
 
