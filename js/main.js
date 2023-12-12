@@ -267,15 +267,17 @@
 //codepen https://codepen.io/kristen17/pen/poqMegm
 
 var swiper = new Swiper(".swiper", {
-	effect: "coverflow",
-	grabCursor: true,
-	centeredSlides: true,
-	coverflowEffect: {
-	  rotate: 0,
-	  stretch: 0,
-	  depth: 100,
-	  modifier: 2.5,
-	},
+	loop: true,
+    effect: 'coverflow',
+    grabCursor: true,
+    centeredSlides: true,
+    slidesPerView: 'auto',
+	spaceBetween: 30,
+    coverflowEffect: {
+        rotate: 0,
+        modifier: 2.5,
+        slideShadows: true,
+    },
 	keyboard: {
 	  enabled: true
 	},
@@ -286,16 +288,7 @@ var swiper = new Swiper(".swiper", {
 		nextEl: '.swiper-button-next',
 		prevEl: '.swiper-button-prev',
 	},
-	spaceBetween: 30,
-	loop: false,
-	breakpoints: {
-	  640: {
-		slidesPerView: 2
-	  },
-	  1024: {
-		slidesPerView: 3
-	  }
-	}
   });
   
-  swiper.slideTo(1, false, false);
+swiper.slideToLoop(1, false, false);
+//swiper.slideTo(1, false, false); in case loop is set to false

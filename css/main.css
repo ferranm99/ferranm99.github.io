@@ -1945,13 +1945,17 @@ header .logo a {
 	display: block;
 	text-align: center;
 	float: left;
-	width: 50%;
+	width: 100%;
 	-moz-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
 	-webkit-transition: all 0.3s ease-in-out;
 	-ms-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
 }
+.popup-modal .two a { 
+	width: 50%;
+}
+
 .popup-modal .link-box a:first-child {
 	border-right: 1px solid rgba(200, 200, 200, 0.1);
 }
@@ -2602,5 +2606,4 @@ footer .copyright span:last-child::after {
 /*added code carousel */
 .swiper {
 	width: 100%;
-	height: 700px;
-  }
+}
