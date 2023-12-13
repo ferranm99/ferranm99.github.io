@@ -39,6 +39,9 @@
 @import url("font-awesome/css/font-awesome.min.css");
 @import url("micons/micons.css");
 
+:root {
+    --swiper-theme-color: #FF0077;
+}
 
 /** 
  * ===================================================================

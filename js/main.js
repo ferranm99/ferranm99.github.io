@@ -272,7 +272,6 @@ var swiper = new Swiper(".swiper", {
     grabCursor: true,
     centeredSlides: true,
     slidesPerView: 'auto',
-	spaceBetween: 30,
     coverflowEffect: {
         rotate: 0,
         modifier: 2.5,
