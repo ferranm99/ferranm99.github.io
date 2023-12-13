@@ -1969,6 +1969,7 @@ header .logo a {
 @media only screen and (max-width:600px) {
 	.popup-modal {
 		width: auto;
+		max-width: 380px;
 		margin: 0 20px;
 	}
 }
